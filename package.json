@@ -8,8 +8,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "start": "webpack-dev-server --mode development",
-    "deploy": ". ./scripts/deploy.sh"
+    "start": "webpack-dev-server --mode development"
   },
   "dependencies": {},
   "devDependencies": {
