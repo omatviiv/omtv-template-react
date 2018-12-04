@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
-import {App} from './app';
-
-const APP = document.getElementById('app');
+import App from './app';
 
 ReactDOM.render(
-  <App />
-, APP);
+  <App />,
+  document.getElementById('app'),
+);
