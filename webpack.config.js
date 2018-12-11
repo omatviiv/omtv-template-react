@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   entry: './src/ui/index.js',
@@ -43,6 +44,7 @@ module.exports = {
       template: path.resolve(__dirname, 'src/index.html'),
     }),
     new CleanWebpackPlugin(['dist']),
+    new FaviconsWebpackPlugin('./src/assets/images/favicon.png'),
   ],
   devServer: {
     contentBase: './dist',
