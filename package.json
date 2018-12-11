@@ -47,7 +47,8 @@
     "rootDir": "src",
     "moduleNameMapper": {
       "^helpers(.*)$": "<rootDir>/ui/helpers$1",
-      "^model(.*)$": "<rootDir>/api/model$1"
+      "^model(.*)$": "<rootDir>/api/model$1",
+      "^assets(.*)$": "<rootDir>/assets$1"
     },
     "setupFiles": [
       "../jestsetup.js"
