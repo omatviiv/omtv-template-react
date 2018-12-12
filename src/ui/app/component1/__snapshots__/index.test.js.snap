@@ -2,6 +2,12 @@
 
 exports[`snapshots renders correclty 1`] = `
 <div>
-  Component1 
+  this is class Test
+  <div>
+    Is menu visible: 
+    <strong>
+      no
+    </strong>
+  </div>
 </div>
 `;

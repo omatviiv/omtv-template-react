@@ -5,6 +5,11 @@ exports[`snapshots renders correclty 1`] = `
   An empty react app
   <br />
   webpack + babel
-  <Component1 />
+  <Connect(Component1) />
+  <button
+    onClick={[MockFunction]}
+  >
+    Show/Hide menu
+  </button>
 </div>
 `;

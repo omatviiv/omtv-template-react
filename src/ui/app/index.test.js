@@ -1,12 +1,14 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import App from './';
+import {App} from './';
 
 describe('snapshots', () => {
   it('renders correclty', () => {
     const wrapper = shallow(
-      <App />
+      <App
+        toggleMenuVisibility={jest.fn()}
+      />
     );
 
     expect(wrapper).toMatchSnapshot();
