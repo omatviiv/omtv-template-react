@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Component1 from './component1';
+import Component1 from '../component1';
 
 const App = () => (
   <div>

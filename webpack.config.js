@@ -4,15 +4,13 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
-  entry: './src/ui/index.js',
+  entry: './src/index.js',
   output: {
-    filename: 'ui/bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     alias: {
-      helpers: path.resolve(__dirname, 'src/ui/helpers/'),
-      model: path.resolve(__dirname, 'src/api/model/'),
       assets: path.resolve(__dirname, 'src/assets/'),
     },
   },
