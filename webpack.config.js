@@ -19,14 +19,22 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        include: [
+          path.resolve(__dirname, 'src'),
+          // include other components that have to be processed by webpack:
+          // path.resolve(__dirname, 'node_modules/omtv-react-input'),
+        ],
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'],
+            presets: [
+              '@babel/preset-flow',
+              '@babel/preset-env',
+              '@babel/preset-react',
+            ],
             plugins: [
-              "@babel/proposal-class-properties",
-              "@babel/proposal-object-rest-spread"
+              '@babel/proposal-class-properties',
+              '@babel/proposal-object-rest-spread',
             ],
           },
         },
