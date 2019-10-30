@@ -1,8 +1,13 @@
+// @flow
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Component1 = () => (
-  <div>Component1</div>
+type Props = {|
+  value?: string,
+|};
+
+const Component1 = ({ value = '' }: Props) => (
+  <div>Component1 { value }</div>
 );
 
 export default Component1;

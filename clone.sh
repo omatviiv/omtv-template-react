@@ -4,6 +4,8 @@ mkdir -p $1/src
 cp -rf ./src/* $1/src
 echo ==copy .babelrc
 cp ./.babelrc $1/
+echo ==copy .flowconfig
+cp ./.flowconfig $1/
 echo ==copy .gitignore
 cp ./.gitignore $1/
 echo ==copy webpack.config.js
