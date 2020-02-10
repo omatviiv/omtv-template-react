@@ -52,7 +52,5 @@
   "bugs": {
     "url": "https://github.com/omatviiv/my-component.git/issues"
   },
-  "homepage": "https://github.com/omatviiv/my-component.git",
-  "author": "Oleh Matviiv",
-  "license": "ISC"
+  "homepage": "https://github.com/omatviiv/my-component.git"
 }
