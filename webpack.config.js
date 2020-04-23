@@ -17,6 +17,7 @@ module.exports = {
       assets: path.resolve(__dirname, 'src/assets/'),
     },
   },
+  stats: 'errors-warnings',
   module: {
     rules: [
       {
