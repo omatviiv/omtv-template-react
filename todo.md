@@ -1,4 +1,5 @@
-[//]: # ()
+[//]: # (cmt):
+[//]: # (stg&cmt):
 
 # done
 + webpack to show only errors an warnings
