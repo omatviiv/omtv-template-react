@@ -2,8 +2,8 @@ echo cloning new react project: $1
 echo ==copy src folder
 mkdir -p $1/src
 cp -rf ./src/* $1/src
-echo ==copy .babelrc
-cp ./.babelrc $1/
+echo ==copy babel.config.js
+cp ./babel.config.js $1/
 echo ==copy .flowconfig
 cp ./.flowconfig $1/
 echo ==copy .gitignore

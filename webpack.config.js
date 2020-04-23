@@ -23,6 +23,7 @@ module.exports = {
         test: /\.js$/,
         include: [
           path.resolve(__dirname, 'src'),
+          path.resolve(__dirname, 'node_modules/omtv-react-input'),
           // include other components that have to be processed by webpack:
           // path.resolve(__dirname, 'node_modules/omtv-react-input'),
         ],

@@ -12,7 +12,9 @@
     "test": "jest",
     "jest": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "omtv-react-input": "0.0.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
