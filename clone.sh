@@ -18,4 +18,6 @@ echo ==copy package.json
 cp ./package.json $1/
 echo ==copy todo.md
 cp ./todo-project.md $1/todo.md
+echo ==copy README.md
+cp ./README-project.md $1/README.md
 echo "==DON'T forget to update package.json with new project related data"
