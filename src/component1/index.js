@@ -6,8 +6,11 @@ type Props = {|
   value?: string,
 |};
 
-const Component1 = ({ value = '' }: Props) => (
-  <div>Component1 { value }</div>
-);
+const Component1 = ({
+  value = '',
+}: Props) => <div>
+  Component1
+  { value }
+</div>;
 
 export default Component1;

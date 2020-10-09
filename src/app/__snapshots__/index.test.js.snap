@@ -5,7 +5,6 @@ exports[`snapshots renders correclty 1`] = `
   An empty react app
   <br />
   webpack + babel
-  <BareInput />
   <Component1 />
 </div>
 `;

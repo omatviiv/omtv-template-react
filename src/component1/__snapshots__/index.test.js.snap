@@ -2,6 +2,6 @@
 
 exports[`snapshots renders correclty 1`] = `
 <div>
-  Component1 
+  Component1
 </div>
 `;
