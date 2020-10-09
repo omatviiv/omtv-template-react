@@ -14,6 +14,8 @@ echo ==copy jest.config.js
 cp ./jest.config.js $1/
 echo ==copy jestsetup.js
 cp ./jestsetup.js $1/
+echo ==copy .eslintrc.js
+cp ./.eslintrc.js $1/
 echo ==copy package.json
 cp ./package.json $1/
 echo ==copy todo.md
