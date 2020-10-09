@@ -5,6 +5,6 @@ React project template.
 
 # Improve template
 - `npm i` - install packages
-- `npm run start` - run demo react app for the Component
+- `npm run dev` - run development build
 - `npm run jest` (optional) - run jest in watch mode
 - improve template
